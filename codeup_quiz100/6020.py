@@ -1,3 +1,3 @@
+# sep 개념 제대로 숙지하기
 a, b = input().split('-')
-print(a,b)
-# 여기부터 다시 풀기 
+print(a, b, sep='')
