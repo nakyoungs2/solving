@@ -4,8 +4,6 @@
 - 데이터를 특정 기준에 따라 순서대로 나열하는 것
 - 일반적으로 문제 상황에 따라 적절한 정렬 알고리즘이 공식처럼 사용되므로, 다양한 문제를 풀어보며 유형을 익힐 필요가 있음
 
-
-
 ### 1. 선택 정렬 (Selection Sort)
 
 선택 정렬
@@ -25,7 +23,6 @@ for i in range(len(array)):
 print(array)
 ```
 
-
 ### 2. 삽입 정렬 (Insertion Sort)
 
 삽입 정렬
@@ -44,7 +41,6 @@ for i in range(1, len(array)): # 두 번째 원소부터 삽입됨
             
 print(array)
 ```
-
 
 ### 3. 퀵 정렬 (Quick Sort)
 
@@ -79,7 +75,6 @@ def quick_sort(array, start, end):
 quick_sort(array, 0, len(array) - 1)
 print(array)
 ```
-
 
 ### 4. 계수 정렬 (Counting Sort)
 
